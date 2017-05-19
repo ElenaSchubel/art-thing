@@ -6,9 +6,19 @@ class Elena extends React.Component {
     let images = [
       "images/potato.jpg",
       "images/manypotato.jpg",
-      "images/happypotate.png"
+      "images/happypotate.png",
+      "images/cutepotato.jpg",
+      "images/cutpotato.jpg",
+      "images/facepotato.jpg",
+      "images/faces.jpg",
+      "images/hipotato.jpg",
+      "images/loadsofthem.jpg",
+      "images/mrpotato.jpg",
+      "images/artotato.jpg",
+      "images/catpotato.jpg",
+      "images/couchpotato.jpg",
     ]
-    console.log("constructing");
+
     this.state = {
       images: images,
       image: images[0],
@@ -17,6 +27,7 @@ class Elena extends React.Component {
         while (rnd == this.state.images.indexOf(this.state.image)) {
           rnd = Math.round(Math.random() * this.state.images.length)
         }
+
         this.setState({image: this.state.images[rnd]})
       }
     }
@@ -26,7 +37,7 @@ class Elena extends React.Component {
     console.log(this.state.image);
     return (
       <div>
-        <button onClick={() => this.state.randomImgs(this.state.image,this.state.images)}/>
+        <button onClick={() => this.state.randomImgs(this.state.images)}/>
         <div id='image'>
           <img src={this.state.image}/>
 
