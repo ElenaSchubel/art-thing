@@ -41,7 +41,10 @@
     "react-router-dom": "^4.1.1",
     "tonal-chord": "^0.69.6",
     "tone": "^0.10.0",
+    "react-dom": "^15.4.2",
     "random-words": "0.0.1",
+    "react": "^15.4.2",
+    "webpack": "^2.3.3",
     "webpack-dev-middleware": "^1.10.2"
   }
 }
