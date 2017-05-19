@@ -17,8 +17,9 @@ const Gabe = () => {
     let idx = Math.floor(Math.random() * soundsN.length -1)
     return soundsN[idx]
   }
+
   const triggerSound = () => {
-    console.log("clicked");
+    console.log("clicked")
     synth.triggerAttackRelease(randomSound(), randomOctave())
     grainPlayer.triggerAttackRelease(randomSound(), randomOctave());
     // synthBass.triggerAttackRelease('B2', '8n', '1m + 2n + 4n + 8n')

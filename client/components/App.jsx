@@ -12,12 +12,12 @@ const App = () => {
       <div>
         <h1>React development has begun!</h1>
         <Route path='/' component={Gabe}/>
+        <Route path='/' component={Alan}/>
+        <Route path='/' component={Elena}/>
+        <Route path='/' component={Nat}/>
       </div>
     </Router>
   )
 }
 
-<Route path='/' component={Alan}/>
-<Route path='/' component={Elena}/>
-<Route path='/' component={Nat}/>
 export default App
