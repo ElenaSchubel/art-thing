@@ -1,6 +1,6 @@
 import React from 'react'
 
-class ArtButton extends React.Component {
+class JokeButton1 extends React.Component {
   constructor(props) {
     super(props)
 
@@ -16,11 +16,11 @@ class ArtButton extends React.Component {
 
   render() {
     return (
-      <button onClick={(e) => this.handleClick(e)}>
+      <button className='joke-button' onClick={(e) => this.handleClick(e)}>
         {this.state.clicked ? this.props.unClick : this.props.clickMsg}
       </button>
     )
   }
 }
 
-export default ArtButton
+export default JokeButton1

@@ -1,11 +1,18 @@
 import React from 'react'
-import ArtButton from './Art-Button'
+import JokeButton1 from './Buttons/Joke-Button1'
+import RandomButton from './Buttons/Random-Button'
+import randomWords from 'random-words'
 
 const Nat = () => {
   return (
-    <div>
-      <ArtButton clickMsg='Click' unClick='unclick'/>
-    </div>
+    <span>
+      <div id="joke-button1">
+        <JokeButton1 clickMsg='Why did the programmer quit her job?' unClick="Because she didn't get arrays"/>
+      </div>
+      <div id="random-button">
+        <RandomButton clickMsg='Click for a random word' unClick=''/>
+      </div>
+    </span>
   )
 }
 export default Nat
