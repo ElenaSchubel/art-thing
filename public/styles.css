@@ -1,0 +1,33 @@
+.joke-button {
+  background: yellow;
+  border: none;
+  color: black;
+  padding: 100px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 50%;
+}
+
+.joke-button:hover {
+  background-color: orange;
+  color: black;
+}
+
+.random-button {
+  background: red;
+  border: none;
+  color: white;
+  padding: 100px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 50%;
+}
+
+.random-button:hover {
+  background-color: green;
+  color: blue;
+}

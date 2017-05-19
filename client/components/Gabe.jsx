@@ -43,7 +43,3 @@ const Gabe = () => {
   )
 
 }
-
-// <button style={{width: "10vh", height: "10vh"}} ></button>
-
-export default Gabe
