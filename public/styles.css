@@ -1,3 +1,13 @@
+body {
+  background: url("/images/mario_bg.png") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+  font-family: 'Press Start 2P', cursive;
+}
+
+
 .joke-button {
   background: yellow;
   border: none;

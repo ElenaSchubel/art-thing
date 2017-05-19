@@ -21,14 +21,13 @@ const Gabe = () => {
   const triggerSound = () => {
     console.log("clicked")
     synth.triggerAttackRelease(randomSound(), randomOctave())
-    grainPlayer.triggerAttackRelease(randomSound(), randomOctave());
+    // gainPlayer.triggerAttackRelease(randomSound(), randomOctave());
     // synthBass.triggerAttackRelease('B2', '8n', '1m + 2n + 4n + 8n')
     // synth.triggerAttackRelease('E4', '8n', '4n + 8n')
   }
 
   return (
-    <div>
-      <svg width={1000} height={1000}>
+      <svg width={1000} height={200}>
         <circle onMouseOver={() => triggerSound()} cx={100} cy={100} r={10}/>
         <circle onMouseOver={() => triggerSound()} cx={200} cy={100} r={10}/>
         <circle onMouseOver={() => triggerSound()} cx={300} cy={100} r={10}/>
@@ -40,7 +39,8 @@ const Gabe = () => {
         <circle onMouseOver={() => triggerSound()} cx={900} cy={100} r={10}/>
         <button>Hello</button>
       </svg>
-    </div>
   )
 
 }
+
+export default Gabe
