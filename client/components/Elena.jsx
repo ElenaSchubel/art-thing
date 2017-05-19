@@ -17,6 +17,7 @@ class Elena extends React.Component {
       "images/artotato.jpg",
       "images/catpotato.jpg",
       "images/couchpotato.jpg",
+      "images/cutecat.jpg"
     ]
 
     this.state = {
