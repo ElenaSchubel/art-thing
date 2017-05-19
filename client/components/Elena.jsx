@@ -1,14 +1,5 @@
 import React from 'react'
 
-<<<<<<< HEAD
-const Elena = () => {
-  return (
-    <div>
-      Hello
-    </div>
-  )
-}
-=======
 class Elena extends React.Component {
   constructor(props) {
     super(props)
@@ -47,6 +38,4 @@ class Elena extends React.Component {
 }
 
 
-
->>>>>>> elena
 export default Elena
