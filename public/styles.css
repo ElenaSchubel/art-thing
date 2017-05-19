@@ -41,3 +41,7 @@ body {
   background-color: green;
   color: blue;
 }
+
+.spud {
+  border-radius: 50%;
+}

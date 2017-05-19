@@ -11553,7 +11553,7 @@ var Elena = function (_React$Component) {
 
     var _this = _possibleConstructorReturn(this, (Elena.__proto__ || Object.getPrototypeOf(Elena)).call(this, props));
 
-    var images = ["images/potato.jpg", "images/manypotato.jpg", "images/happypotate.png", "images/cutepotato.jpg", "images/cutpotato.jpg", "images/facepotato.jpg", "images/faces.jpg", "images/hipotato.jpg", "images/loadsofthem.jpg", "images/mrpotato.jpg", "images/artotato.jpg", "images/catpotato.jpg", "images/couchpotato.jpg", "images/cutecat.jpg"];
+    var images = ["images/potato.jpg", "images/manypotato.jpg", "images/happypotate.png", "images/cutepotato.jpg", "images/cutpotato.jpg", "images/facepotato.jpg", "images/faces.jpg", "images/hipotato.jpg", "images/loadsofthem.jpg", "images/mrpotato.jpg", "images/artpotato.jpg", "images/catpotato.jpg", "images/couchpotato.jpg", "images/cutecatpotato.jpg"];
 
     _this.state = {
       images: images,
@@ -11585,7 +11585,7 @@ var Elena = function (_React$Component) {
         _react2.default.createElement(
           "div",
           { id: "image" },
-          _react2.default.createElement("img", { src: this.state.image })
+          _react2.default.createElement("img", { className: "spud", src: this.state.image })
         )
       );
     }

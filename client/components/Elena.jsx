@@ -14,10 +14,10 @@ class Elena extends React.Component {
       "images/hipotato.jpg",
       "images/loadsofthem.jpg",
       "images/mrpotato.jpg",
-      "images/artotato.jpg",
+      "images/artpotato.jpg",
       "images/catpotato.jpg",
       "images/couchpotato.jpg",
-      "images/cutecat.jpg"
+      "images/cutecatpotato.jpg"
     ]
 
     this.state = {
@@ -40,7 +40,7 @@ class Elena extends React.Component {
       <div>
         <button onClick={() => this.state.randomImgs(this.state.images)}/>
         <div id='image'>
-          <img src={this.state.image}/>
+          <img className="spud" src={this.state.image}/>
 
         </div>
       </div>
