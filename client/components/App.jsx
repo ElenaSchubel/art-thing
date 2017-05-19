@@ -27,6 +27,7 @@ const App = () => {
             <div className="alan">
               <Route path='/' component={Alan}/>
             </div>
+          </div>
           <div className="col col-md-4">
             <div className="elena">
               <Route path='/' component={Elena}/>
@@ -34,7 +35,6 @@ const App = () => {
           </div>
         </div>
       </div>
-    </div>
     </Router>
   )
 }

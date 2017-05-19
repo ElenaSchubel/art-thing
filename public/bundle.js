@@ -11330,15 +11330,15 @@ var App = function App() {
             'div',
             { className: 'alan' },
             _react2.default.createElement(_reactRouterDom.Route, { path: '/', component: _Alan2.default })
-          ),
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'col col-md-4' },
           _react2.default.createElement(
             'div',
-            { className: 'col col-md-4' },
-            _react2.default.createElement(
-              'div',
-              { className: 'elena' },
-              _react2.default.createElement(_reactRouterDom.Route, { path: '/', component: _Elena2.default })
-            )
+            { className: 'elena' },
+            _react2.default.createElement(_reactRouterDom.Route, { path: '/', component: _Elena2.default })
           )
         )
       )
@@ -11553,8 +11553,8 @@ var Elena = function (_React$Component) {
 
     var _this = _possibleConstructorReturn(this, (Elena.__proto__ || Object.getPrototypeOf(Elena)).call(this, props));
 
-    var images = ["images/potato.jpg", "images/manypotato.jpg", "images/happypotate.png"];
-    console.log("constructing");
+    var images = ["images/potato.jpg", "images/manypotato.jpg", "images/happypotate.png", "images/cutepotato.jpg", "images/cutpotato.jpg", "images/facepotato.jpg", "images/faces.jpg", "images/hipotato.jpg", "images/loadsofthem.jpg", "images/mrpotato.jpg", "images/artotato.jpg", "images/catpotato.jpg", "images/couchpotato.jpg", "images/cutecat.jpg"];
+
     _this.state = {
       images: images,
       image: images[0],
@@ -11563,6 +11563,7 @@ var Elena = function (_React$Component) {
         while (rnd == _this.state.images.indexOf(_this.state.image)) {
           rnd = Math.round(Math.random() * _this.state.images.length);
         }
+
         _this.setState({ image: _this.state.images[rnd] });
       }
     };
@@ -11579,7 +11580,7 @@ var Elena = function (_React$Component) {
         "div",
         null,
         _react2.default.createElement("button", { onClick: function onClick() {
-            return _this2.state.randomImgs(_this2.state.image, _this2.state.images);
+            return _this2.state.randomImgs(_this2.state.images);
           } }),
         _react2.default.createElement(
           "div",
