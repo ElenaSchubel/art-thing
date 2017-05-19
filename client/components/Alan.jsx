@@ -1,3 +1,3 @@
-import React from 'react'
-
-export default Alan
+// import React from 'react'
+//
+// export default Alan
