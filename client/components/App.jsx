@@ -11,13 +11,13 @@ const App = () => {
     <Router>
       <div>
         <h1>React development has begun!</h1>
-        <Route path='/' component={Alan}/>
-        <Route path='/' component={Elena}/>
-        <Route path='/' component={Nat}/>
         <Route path='/' component={Gabe}/>
       </div>
     </Router>
   )
 }
 
+<Route path='/' component={Alan}/>
+<Route path='/' component={Elena}/>
+<Route path='/' component={Nat}/>
 export default App
